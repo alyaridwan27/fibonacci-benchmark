@@ -3,7 +3,7 @@
 #include "mylib/mylib.h"
 
 int main(void){
-    const int N=30;
+    const int N=10;
     float start = (float)clock()/CLOCKS_PER_SEC;
 
     for (unsigned int i = 0; i<N; i++){
