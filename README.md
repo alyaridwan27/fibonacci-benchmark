@@ -73,4 +73,12 @@ make space
 make space
 ./main_b_space_recursive.out
 ```
+To check the memory usage, I run an infinite loop with N=1000. With a relatively huge N, I could see the memory usage for each function in the activity monitor.
 
+### Iterative
+![WhatsApp Image 2022-11-28 at 09 28 43 (1)](https://user-images.githubusercontent.com/114371692/204178857-a78dfd2f-8f8e-417e-903b-402c3992a78c.jpeg)
+
+### Recursive
+![WhatsApp Image 2022-11-28 at 09 28 43](https://user-images.githubusercontent.com/114371692/204178897-79bf1bf6-7b64-4b25-a905-45524d16475d.jpeg)
+
+You can see that the memory used for iterative is 705KB and for recursive is 993KB. Therefore, recursive approach has a higher space complexity but lower time complexity and as for iterative approach is the oppsoite in which it takes up less space but runs slower than recursive approach.
