@@ -73,7 +73,6 @@ make space
 make space
 ./main_b_space_recursive.out
 ```
-To check the memory usage, I run an infinite loop with N=1000. With a relatively huge N, I could see the memory usage for each function in the activity monitor.
 
 ### Iterative
 ![WhatsApp Image 2022-11-28 at 09 28 43 (1)](https://user-images.githubusercontent.com/114371692/204178857-a78dfd2f-8f8e-417e-903b-402c3992a78c.jpeg)
